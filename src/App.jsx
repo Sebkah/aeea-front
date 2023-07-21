@@ -23,6 +23,7 @@ function App() {
         /*  credentials: 'same-origin', */ // include, *same-origin, omit
         headers: {
           'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': 'https://aeea-sncf.vercel.app',
         },
         body: JSON.stringify(data), // body data type must match "Content-Type" header
       });
