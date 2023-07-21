@@ -16,7 +16,7 @@ function App() {
     console.log(e.target.dossierID.value);
 
     try {
-      const response = await fetch('http://localhost:3000/api/getData', {
+      const response = await fetch('https://aeea-sncf.vercel.app/api/getData', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
